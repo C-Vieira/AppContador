@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/incrementButton"
+        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:text="+"
+        android:textSize="20dp"
+        android:backgroundTint="#0E8E09"
+         />
+
+    <TextView
+        android:id="@+id/countLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+         />
+
+    <Button
+        android:id="@+id/decrementbutton"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="20dp"
+        android:backgroundTint="#95091E"
+         />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
